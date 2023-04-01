@@ -1,0 +1,146 @@
+:root {
+    --font-crimson:'Crimson Pro', serif;
+    --font-Montserrat:'Montserrat', sans-serif;
+    --font-sans-serif:'sans-serif'; 
+}
+
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#top-text {
+    font-family: 'Crimson Pro', serif;
+    border: 1px solid white;
+    padding: 7px 7px;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 0px;
+    padding: 0px 50px;
+    margin: 70px; 
+}
+
+.topnav-right a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white; 
+    margin-left: 50px;
+}
+
+#effect {
+    font-weight: 900;
+}
+
+#modern {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+}
+
+#sub-modern {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 24;
+    font-weight: 400px;
+    color: white;
+    inline-size: 500px;
+    line-height: 25px;
+}
+
+#read {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+}
+
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+#container {
+    width: fit-content;
+    flex-basis: 50%;
+}
+
+
+#nature-view img { 
+    width: 100%;
+    z-index: 100;
+}
+
+#parent-lady {
+    z-index: 1000;
+    background-color: black;
+    bottom: 0px;
+    right: 0px;
+    width: 410px;
+    padding: 10px 34px;
+    margin: -90px 54px 0px auto;
+    position: relative;
+}
+
+.white-lady {
+    display: flex;
+    grid-column-gap: 20px;
+}
+
+.white-lady img {
+    border-radius: 50%;
+    max-width: 75px;
+    width: 100%;
+}
+
+#aliza {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    line-height: 0px;
+}
+
+#interior {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+#britto {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 31px;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;  
+    font-weight: 400; 
+    color: rgb(255, 255, 255);
+    text-align: center ;
+    margin: 0px 0px 20px; 
+}
+
+@media screen and (max-width: 600px) {
+    .white-lady {
+            flex-wrap: wrap;
+            padding: 100px;
+    }
+
+}
+
+
